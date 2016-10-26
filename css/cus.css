@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 宋体,Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif;
+}
+/* 导航条*/
+
+/*导航条的颜色*/
+ /* .navbar-default{
+    background-color: #382316;
+    margin-bottom:0;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.myul>li>a{
+    padding-left: 40px;
+}
+.navbar-header>.navbar-toggle{
+    color: #382316;
+    border-color: #382316;
+    float: left;
+    padding-left: 40px;
+}
+.navbar-header>.navbar-toggle:hover{
+    background-color: #382316;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #D4B376;
+    width: 35px;
+    height: 5px;
+    border-radius: 5px;
+} */
+/*导航条组件的样式
+
+/* #mycollapse a{
+    color: #BEA069;
+}
+#mycollapse .active>a{
+    background-color: #DBB97A;
+    color: #1D0001;
+}  */
+
+/* ///////////////////////// */
+.container{
+    padding: 0;
+    margin: 0;
+    max-width: 640px;
+    margin: 0 auto; 
+    position: relative;
+}
+.contentmain{
+    margin-top: 60px;
+}
+
+
+/* ////////////////////////客房类型 */
+
+.pic{
+    width: 54%;
+}
+.pic>img{
+    height: 207px;
+}
+.orderroom{
+    width: 46%;
+    height: 207px;
+}
+.roomlist{
+    width: 100%;
+}
+.room-item{
+    width: 100%;
+    margin-top: 27px;
+    height: 207px;
+}
+.romdes{
+    height: 137px;
+}
+.orderroom h3{
+    font-size: 2.5rem;
+    color: #666666;
+    padding-top: 2.1666666rem;
+    padding-bottom: 2.6rem;
+    padding-left: 1rem;
+     background: #e3e3e3;
+}
+.orderroom p{
+    color: #666666;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 2.5rem;
+ background: #e3e3e3;
+ margin-bottom: 0;
+ font-size: 1.6666666666rem;
+}
+.orderroom>a{
+    display: block;
+    color: #352418;
+    font-size: 2rem;
+    background: #d7b87f;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+/* /////////////////////// */
+.des>p{
+    margin-top: 2.25rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    color: #352418;
+    padding: 3rem 1.3333333rem;
+    line-height: 2.8rem;
+    background: #e0e0e0;
+    text-indent: 2em;
+}
+
+
+

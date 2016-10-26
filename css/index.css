@@ -1,0 +1,233 @@
+
+body{
+    font-family: 宋体,Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif;
+    font-size: 62.5%;
+}
+/* 导航条*/
+/*导航条的颜色*/
+.navbar-default{
+    background-color: #382316;
+    margin-bottom: 0;
+}
+.navbar-header>.navbar-toggle{
+    color: #382316;
+    border-color: #382316;
+    float: left;
+}
+.navbar-header>.navbar-toggle:hover{
+    background-color: #382316;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #D4B376;
+    width: 35px;
+    height: 5px;
+    border-radius: 5px;
+}
+/*导航条组件的样式*/
+#mycollapse a{
+    color: #BEA069;
+}
+#mycollapse .active>a{
+    background-color: #DBB97A;
+    color: #1D0001;
+}
+/*主体页面*/
+.con-wrap{
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+/*主页轮播*/
+#carousel-example-generic{
+    margin-top: 60px;
+}
+/*主页轮播上的蒙版*/
+.hbannerc{
+   width: 100%;
+   height: auto;
+   background: url(../images/bg.png) repeat;
+   z-index: 1000;
+   position: absolute;
+   top: 80px;
+   /*left: 20%;*/
+}
+.hbannerc .insdie{
+   width: 95%;
+   height: 400px;
+   margin: 17px auto;
+   color: #d7b97e;
+   border: 1px solid #d7b97e;
+}
+.hbannerc .insdie .tf1{
+   margin: 0 auto;
+   width: 100%;
+   float: left;
+   padding-top: 50px;
+}
+/* .hbannerc .insdie .tf1 span{
+   width: 100%;
+   border-bottom: 1px solid #d7b97e;
+   display: block;
+   float: left;
+   height: 20px;
+} */
+.hbannerc .tf1{
+  width: 100%;
+  height: auto;
+}
+.hbannerc .tf1 .title{
+  width: 30%;
+  height: 34px;
+  margin: 0 auto;
+  border-left: 1px solid #d7b97e;
+  border-right: 1px solid #d7b97e;
+  text-align: center;
+  float: left;
+}
+.hbannerc .tf1 .title h3{
+  font-size: 1.75rem;
+}
+.hbannerc .tf1 .title p{
+  font-size: 0.75rem;
+}
+.hbannerc .tf1 .line{
+  width: 30%;
+  height: 34px;
+  float: left;
+}
+.hbannerc .tf1 .line hr{
+  line-height: 14%;
+  color: #d7b97e
+}
+.hbannerc .tf1 .lf{
+  margin-left: 5%;
+}
+/* .hbannerc .insdie .tf1 div{
+   width: 100%;
+   height: 50px;
+   float: left;
+   text-align: center;
+   border-top: 1px solid #d7b97e;
+   border-bottom: 1px solid #d7b97e;
+   border-right: 1px solid #d7b97e;
+   border-left: 1px solid #d7b97e;
+   /*position: absolute;*/
+} */
+.hbannerc .insdie .tf1 h3{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+/*@media screen and (max-width:400px){
+   .hbannerc .insdie .tf1 div h3{
+       font-weight: normal;
+       font-size: 14px;
+       margin: 0;
+   }
+}*/
+.con-wrap{
+  padding: 0;
+}
+.hbannerc .insdie .tf2{
+   width: 100%;
+   float: left;
+   margin: 0 auto;
+   font-size: 2em;
+   text-align: center;
+   padding-top: 30px;
+}
+.hbannerc .insdie .tf3 {
+   width: 100%;
+   float: left;
+   text-align: center;
+   margin: 0 auto;
+   font-size: 1.33em;
+   padding-top: 30px;
+   padding-bottom: 40px;
+}
+
+.hbannerc .insdie .tf3 span {
+   font-size: 1.888em;
+}
+/*客房服务*/
+.kffw{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.kffw .img-title{
+    margin-top: -40px;
+    position: absolute;
+    z-index: 1000;
+    width: 100%
+}
+.kffw .title-bg{
+    width: 100%;
+    height: 40px;
+    background: url(../images/bg.png) repeat;
+}
+.kffw .img-title p{
+    float: left;
+    font-size: 1em;
+    color: #BFA06A;
+}
+.kffw span{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #BFA06A;
+    float: right;
+    background: url(../images/b_righth.png) 5px 5px no-repeat;
+    position: absolute;
+    left: 90%;
+}
+/*配套服务*/
+.ptservers{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.foot{
+    max-width: 49%;
+    float: left;
+
+}
+.bar{
+    max-width: 49%;
+    float: right;
+}
+.ptservers .img-responsive{
+    width: 100%;
+    height: auto;
+}
+.ptservers .img-title{
+    width: 49%;
+    background: rgba(65, 35, 5, 0.5);
+    margin-top: -33px;
+    position: absolute;
+    z-index: 1000;
+
+}
+.ptservers .img-title p{
+    color: #fff;
+    text-align: center;
+    margin-top: 4px;
+}
+/*配套服务*/
+
+.mynav-more>ul{
+  width: 100%;
+  margin: 0;
+}
+.mynav-more>ul>li{
+  border: 2px solid white;
+  float: left;
+  width: 33.3333333%;
+}
+.mynav-more>ul>li>a{
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  background: #352418;
+  color: #d7b87f;
+}
